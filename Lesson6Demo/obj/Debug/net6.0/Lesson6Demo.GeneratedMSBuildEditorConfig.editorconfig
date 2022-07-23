@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lesson6Demo
+build_property.RootNamespace = Lesson6Demo
+build_property.ProjectDir = C:\Users\1\Desktop\Intro to LINQ and MVC\Lesson6Demo\Lesson6Demo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\1\Desktop\Intro to LINQ and MVC\Lesson6Demo\Lesson6Demo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Game/AllEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxBbGxFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Game/CreateEquipment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxDcmVhdGVFcXVpcG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Game/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Player/EquipmentGroupBy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEVxdWlwbWVudEdyb3VwQnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Player/GroupByExample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEdyb3VwQnlFeGFtcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Player/PlayersGroupBy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXFBsYXllcnNHcm91cEJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1/Desktop/Intro to LINQ and MVC/Lesson6Demo/Lesson6Demo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vegtneh280

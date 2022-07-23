@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Lesson6Demo.Models.Equipment>
+
+@{
+    ViewData["Title"] = "All Equipment";
+}
+
+<h1>AllEquipment</h1>
+
+<p>
+    <a asp-action="CreateEquipment">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrengthRequirement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrengthModifier)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntelligenceRequirement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntelligenceModifier)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrengthRequirement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrengthModifier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntelligenceRequirement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntelligenceModifier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

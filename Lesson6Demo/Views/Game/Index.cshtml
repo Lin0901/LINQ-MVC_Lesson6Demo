@@ -1,0 +1,118 @@
+﻿@model Lesson6Demo.ViewModels.PlayersAndEquipments
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+
+<h1>All Players</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                Name
+            </th>
+            <th>
+                BaseHealth
+            </th>
+            <th>
+                Strength
+            </th>
+            <th>
+                Intelligence
+            </th>
+            <th>
+                Region
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Players) {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BaseHealth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Strength)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Intelligence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Region)
+            </td>
+
+
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<h1>All Equipments</h1>
+
+<p>
+    <a asp-action="CreateEquipment">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                Name
+            </th>
+            <th>
+                StrengthRequirement
+            </th>
+            <th>
+                StrengthModifier
+            </th>
+            <th>
+                IntelligenceRequirement
+            </th>
+            <th>
+                IntelligenceModifier
+            </th>
+            <th>
+                Type
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Equipments) {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrengthRequirement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrengthModifier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntelligenceRequirement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntelligenceModifier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>
